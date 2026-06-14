@@ -1,0 +1,16 @@
+{{/* Custom override: show event date only, no time. */}}
+{{ $start_date := .Params.event_start | default .Date }}
+{{ $end_date := .Params.event_end | default .Params.date_end }}
+
+{{ $t1 := time $start_date }}
+{{ $str := slice (time.Format (site.Params.hugoblox.locale.date_format | default "Jan 2, 2006") (time $t1)) }}
+
+{{ if $end_date }}
+  {{ $str = $str | append "&mdash;" }}
+  {{ $t2 := time $end_date }}
+  {{ if not (eq $t1.Year $t2.Year | and (eq $t1.Month $t2.Month) | and (eq $t1.Day $t2.Day)) }}
+    {{ $str = $str | append (time.Format (site.Params.hugoblox.locale.date_format | default "Jan 2, 2006") (time $t2)) }}
+  {{ end }}
+{{ end }}
+
+{{ return ((delimit $str " ") | safeHTML) }}

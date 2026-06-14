@@ -1,0 +1,187 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+
+name:
+  display: Devin Hunter
+  given: Devin
+  family: Hunter
+  alternate: ''
+  pronunciation: ''
+  pronouns: he/him
+
+postnominals: []
+
+status:
+  icon: ""
+
+role: 6th-Year Ph.D. Student in Electrical Engineering
+
+bio: |
+  6th-Year Ph.D. Student in Electrical Engineering with a concentration in Robotics & Autonomous Systems at the University of Central Florida.
+
+  🎓 **Expected Graduation:** Summer 2027
+
+  🔬 **Research Identity:** Learning-Based State Estimation and Control of Uncertain Dynamical Systems
+
+affiliations:
+  - name: University of Central Florida
+    url: https://www.ucf.edu/
+
+  - name: "School Email: de700090@ucf.edu"
+    url: ""
+
+links:
+  - icon: at-symbol
+    url: mailto:devin.hunter2017@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/devin1126
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/dev-hunt1126
+
+interests:
+  - Learning-Based State Estimation
+  - Learning-Based Control
+  - Neural Processes
+  - Uncertainty Quantification
+  - Reinforcement Learning
+  - Robotics & Autonomous Systems
+  - Multi-Agent Systems
+  - Aerospace Autonomy
+
+education:
+  - degree: Ph.D. Electrical Engineering
+    institution: University of Central Florida
+    start: 2021-08-01
+    end: 2027-06-30
+    summary: |
+      Concentration: Robotics & Autonomous Systems. Expected Graduation: Summer 2027.
+  - degree: M.S. Electrical Engineering
+    institution: University of Central Florida
+    start: 2021-08-16
+    end: 2025-08-01
+    summary: |
+      Concentration: Guidance, Control, and Dynamics.
+  - degree: B.S. Mathematics
+    institution: Edward Waters University
+    start: 2017-08-01
+    end: 2021-05-08
+    summary: |
+      Class Valedictorian. Summa Cum Laude. GPA: 3.98/4.00.
+
+experience:
+  - role: Research Intern (NASA OSTEM Program)
+    org: NASA Goddard Space Flight Center, GSFC Flight Dynamics Team
+    start: 2026-06-01
+    end: 2026-08-07
+    summary: |
+      As ongoing work, I am developing reinforcement learning-based autonomous reconnaissance planning algorithms for the OSIRIS-APEX mission to asteroid Apophis, focusing on uncertainty-aware decision making and autonomous spacecraft operations.
+
+  - role: Research Intern (ATRC/SDIP Program)
+    org: Air Force Research Laboratory Sensors Directorate
+    start: 2023-05-01
+    end: 2026-06-01
+    summary: |
+      Developed deep learning-based state estimation algorithms for vehicle tracking and autonomous systems. Current neural process-based estimation framework achieves approximately 32% lower estimation error than state-of-the-art baseline approaches across multiple tracking scenarios. Research has resulted in an accepted paper at SPIE Defense + Security, poster at NAML, and other machine learning-focused AFRL conferences.
+
+  - role: Graduate Research Assistant
+    org: University of Central Florida, Nonlinear Controls Lab
+    start: 2021-08-05
+    end: 2022-08-07
+    summary: |
+      Constructed a 6-DOF NASA HL-20 spacecraft orbital re-entry simulation and implemented a State-Dependent Riccati Equation (SDRE) guidance law. Achieved approximately 19% improved trajectory tracking performance and 50% reduction in thrust energy consumption relative to baseline iLQR guidance.
+
+  - role: Undergraduate Research Intern
+    org: Massachusetts Institute of Technology, Robust Robotics Group
+    start: 2020-06-01
+    end: 2020-07-31
+    summary: |
+      Designed and implemented an autonomous navigation system for a wheeled mobile robot using a single HC-SR04 ultrasonic sensor and Arduino-based feedback control. Demonstrated navigation performance within 7% of human teleoperation metrics while utilizing significantly reduced sensing requirements.
+
+  - role: Undergraduate Research Intern
+    org: Stanford University, CHARM Lab
+    start: 2019-06-01
+    end: 2019-08-31
+    summary: |
+      Developed a Unity-based simulation environment for manipulator-equipped soft robotic systems performing shared-autonomy object manipulation. Validated control algorithms using real-time physics simulation to support future deployment on physical robotic platforms.
+
+skills:
+  - name: Programming
+    items:
+      - label: Python
+        level: 5
+      - label: MATLAB
+        level: 5
+      - label: C++
+        level: 4
+      - label: C#
+        level: 3
+
+  - name: AI / Machine Learning
+    items:
+      - label: PyTorch
+        level: 5
+      - label: TensorFlow
+        level: 4
+      - label: OpenCV
+        level: 4
+      - label: Neural Processes
+        level: 5
+      - label: Reinforcement Learning
+        level: 4
+
+  - name: Robotics & Control
+    items:
+      - label: ROS / ROS2
+        level: 5
+      - label: Arduino / ESP32
+        level: 4
+      - label: State Estimation
+        level: 5
+      - label: Optimal Control
+        level: 5
+      - label: Nonlinear Control
+        level: 4
+      - label: Adaptive Control
+        level: 4
+
+  - name: Mathematics
+    items:
+      - label: Linear Algebra
+        level: 5
+      - label: Probability Theory
+        level: 5
+      - label: Statistics
+        level: 4
+      - label: Optimization
+        level: 5
+      - label: Random Processes
+        level: 4
+
+languages:
+  - name: English
+    level: 5
+    label: Native
+
+awards:
+  - title: McKnight Doctoral Fellowship
+    awarder: University of Central Florida
+    date: "2021-08-01"
+
+  - title: Class Valedictorian
+    awarder: Edward Waters University
+    date: "2021-05-08"
+
+  - title: Summa Cum Laude
+    awarder: Edward Waters University
+    date: "2021-05-08"
+
+  - title: Best Poster Award at UNF SOARS 2020
+    awarder: University of Northern Florida
+    date: "2020-04-05"
+
+  - title: Presidential Honors List
+    awarder: Edward Waters University
+    date: "2018-2021"
+    summary: Earned for high GPA across seven semesters.
