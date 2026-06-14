@@ -13,7 +13,10 @@ This presentation introduces the Multi-Fidelity Residual Physics-Informed Neural
 
 Experimental validation was performed on a physical skid-steering robotic platform, demonstrating improved estimation accuracy, accelerated convergence, and real-time deployment feasibility relative to multiple baseline state estimation approaches. The framework additionally incorporates Split Conformal Prediction to provide uncertainty-aware state estimates with statistical coverage guarantees.
 
-<video controls width="100%">
-  <source src="ICRCA-Presentation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe
+  src="https://drive.google.com/file/d/19hJjYTOlaklztBsSwhYR9Mwq6ny3rXOt/preview"
+  width="100%"
+  height="600"
+  allow="autoplay"
+  allowfullscreen>
+</iframe>
