@@ -1,13 +1,14 @@
 ---
-title: MIT Robust Robotics Group Internship Presentation
+title: "MIT Robust Robotics Group Internship Presentation"
+event: "MIT MSRP Research Program"
 date: 2020-07-05
-summary: |
-  Research presentation summarizing autonomous mobile robot navigation developed during the MIT MSRP program.
-featured: true
-event_start: 2020-07-05
-event_name: MIT MSRP Research Program
----
 
+summary: >
+  Research presentation summarizing autonomous mobile robot navigation
+  developed during the MIT MSRP program.
+
+featured: true
+---
 
 Research presentation summarizing work completed through the MIT Summer Research Program (MSRP) program within the Robust Robotics Group. The project investigated whether autonomous navigation could be achieved using only a single low-cost HC-SR04 ultrasonic range sensor combined with feedback control.
 
