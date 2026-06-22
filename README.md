@@ -107,7 +107,7 @@ A dedicated projects section is currently under active development and will be e
 
 * NASA OSTEM Intern — NASA Goddard Space Flight Center
 * Air Force Research Laboratory (AFRL)
-* MIT Minority Introduction to Engineering and Science (MIT MSRP)
+* MIT Summer Research Program (MIT MSRP)
 * Stanford Leadership Alliance Research Program
 
 ---
