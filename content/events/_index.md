@@ -1,8 +1,8 @@
 ---
-title: Recent & Upcoming Talks
+title: Presentations & Posters
+summary: Conference presentations, research posters, and technical talks.
 cms_exclude: true
 
-build:
-  render: never
-  list: never
+# View
+view: card
 ---

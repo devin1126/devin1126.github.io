@@ -72,7 +72,8 @@ sections:
       title: Presentations & Posters
       count: 5
       archive:
-        enable: false
+        enable: true
+        text: See More
       filters:
         folders:
           - events
