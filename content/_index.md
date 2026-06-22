@@ -72,7 +72,7 @@ sections:
       title: Presentations & Posters
       count: 5
       archive:
-        enable: true
+        enable: false
         text: See More
       filters:
         folders:
@@ -81,6 +81,17 @@ sections:
       view: card
       spacing:
         padding: [1rem,0,0,0]
+  - block: markdown
+    content:
+      title: ''
+      text: |-
+        <div style="text-align:center; margin-top: -1rem; margin-bottom: 2rem;">
+          <a class="btn btn-primary" href="/events/">See More Presentations & Posters</a>
+        </div>
+    design:
+      columns: '1'
+      spacing:
+        padding: [0,0,0,0]
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
