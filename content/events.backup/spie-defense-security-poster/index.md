@@ -1,13 +1,14 @@
 ---
-title: SPIE Defense + Security Poster
+title: "SPIE Defense + Security Poster"
+event: "SPIE Defense + Security"
 date: 2026-04-28
-summary: |
-  Poster presentation introducing a Physics-Informed Attentive Neural Process framework for multi-time-scale vehicle state estimation using remote sensing data.
-featured: true
-event_start: 2026-04-28
-event_name: SPIE Defense + Security
----
 
+summary: >
+  Poster presentation introducing a Physics-Informed Attentive Neural Process
+  framework for multi-time-scale vehicle state estimation using remote sensing data.
+
+featured: true
+---
 
 Poster presentation describing a Physics-Informed Attentive Neural Process (PI-AttNP) framework for multi-time-scale vehicle state estimation using Automatic Identification System (AIS) ship-tracking and Automatic Dependent Surveillance–Broadcast (ADS-B) aircraft-tracking datasets. The approach incorporates simplified physics-based motion models directly into an attentive neural process architecture to improve predictive accuracy across widely varying temporal resolutions. 
 
